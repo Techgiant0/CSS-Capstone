@@ -1,0 +1,81 @@
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.hero{
+    background-color: #E3FDFD;
+}
+
+.container-normal{
+    display: flex;
+    align-items: center;
+}
+
+.space{
+    margin: 50px;
+}
+
+h1, .hero-text{
+    text-align: center;
+}
+
+#cyborg{
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.resume{
+    background-color: #CBF1F5;
+}
+
+.projects{
+    background-color: #A6E3E9;
+}
+
+.contact{
+    background-color: #71C9CE;
+}
+
+.button{
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #A6E3E9;
+    margin-left: 590px;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    background-color: #E3FDFD;
+}
+
+@media (width <= 600px) {
+    .container-normal{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        justify-content: center;
+    }
+
+    .button{
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        border-radius: 15px;
+        border: 0;
+        background-color: #A6E3E9;
+        margin-left: 230px;
+    }
+}
